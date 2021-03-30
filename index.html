@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload</title>
+    <link rel="stylesheet" href="font.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="app">
+
+    
+    <div class="upload">
+        <div class="upload-files">
+            <header>
+                <p>
+                    <i class="icon-cloud_upload" aria-hidden="true"></i>
+                    <span class="up">Up</span>
+                    <span class="load">Load</span>
+                </p>
+            </header>
+            <div class="body" id="drop">
+                <i class="icon-upload_file pointer-none" aria-hidden="true"></i>
+                <p class=""><b>Drag and drop</b> files here <br /> or <a id="triggerFile"><b>Browse</b></a>
+                    to begin the upload</p>
+                <input type="file" multiple="multiple" />
+            </div>
+            <footer>
+                <div class="divider">
+                    <span>
+                        <AR>FILES</AR>
+                    </span>
+                </div>
+                <div class="list-files">
+                    <!--   template   -->
+                </div>
+                <button class="importar">IMPORT MORE FILES</button>
+            </footer>
+        </div>
+    </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="./scripts/app.js"></script>
+</body>
+
+</html>
